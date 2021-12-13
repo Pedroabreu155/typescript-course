@@ -1,0 +1,25 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "Curso para aprender conceitos avançados de typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --transpile-only --ignore-watch ./node_modules index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedroabreu155/typescript-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pedroabreu155/typescript-course/issues"
+  },
+  "homepage": "https://github.com/Pedroabreu155/typescript-course#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.3"
+  }
+}
